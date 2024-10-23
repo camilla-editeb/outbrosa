@@ -1,0 +1,113 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header{
+    background-color:#FF69B4 ;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E4EEF1;
+  
+    section{
+      display: flex;
+      align-items: center;
+    }
+  
+    nav{
+      width: 40%;
+  
+      ul{
+          display: flex;
+          justify-content: space-between;
+  
+          a{
+              color: #E4EEF1;
+              font-size: 28px;
+          }
+  
+        }
+    }
+}
+
+.sessaoPrevencao{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD9EC;
+
+
+    p {
+        width: 40%;
+        font-size: 25px;
+    }
+
+    img{
+        width: 22%;
+    }
+
+}
+
+.sessaoCaminhada{
+    background-color: #FF69B4;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img{
+        width: 30%;
+    }
+
+    p{
+        width: 50%;
+        color: #fff;
+        font-size: 25px;
+    }
+}
+
+.rosaclaro2{
+    background-color: #FFD9EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+
+    img{
+        width: 15%;
+        height: 65%;
+    }
+}
+
+footer{
+    height: 30vh;
+    background-color: #FF69B4;
+    display: flex;
+
+    img{
+      height: 35%;
+      margin-left: 30px;
+      margin-top: 60px;
+    }
+
+    p{
+        color: #E4EEF1;
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+
+
+
+
